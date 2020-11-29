@@ -69,7 +69,7 @@ To initiate bot onboarding, the `/start` command can be sent to the bot by the u
 * `/exception`: Throws a ZeroDivisionError, crashing the bot. Admin only.
 
 ### Extending The Template
-For information on how to extend the template and add additional functionality as required, check out the full documentation for the[pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
+For information on how to extend the template and add additional functionality as required, check out the full documentation for [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
 
 ## License
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
