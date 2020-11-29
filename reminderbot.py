@@ -163,7 +163,7 @@ def checktime():
 
 @tl.job(interval=timedelta(hours=1))
 def checkup():
-    bot.send_message(ADMIN, "bot still running", disable_notification=True)
+#    bot.send_message(ADMIN, "bot still running", disable_notification=True)
     t = time.localtime()
     print("bot still running at {:0>2}:{:0>2}".format(t.tm_hour, t.tm_min))
 
