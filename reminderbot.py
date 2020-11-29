@@ -37,7 +37,7 @@ class User:
 user_dict = {}
 block_dict = {}
 
-f= open(UD_FILE, "r")
+f= open(UD_FILE, "a+")
 
 f1 = f.readlines()
 for x in f1:
@@ -47,7 +47,7 @@ for x in f1:
 
 f.close()
 
-f= open(BD_FILE, "r")
+f= open(BD_FILE, "a+")
 
 f1 = f.readlines()
 for x in f1:
