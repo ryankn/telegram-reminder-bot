@@ -1,12 +1,23 @@
 # <p align="center">Telegram Reminder Bot Template
 This is a simple template for a Telegram reminder bot built using the [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) implementation of the [Telegram Bot API](https://core.telegram.org/bots/api). 
 
+* [Functionality](#functionality)
 * [Installation](#installation)
 * [Bot Setup](#bot-setup)
-* [Bot Functionality](#bot-functionality)
+* [Running The Bot](#running-the-bot)
   * [Full Command List](#full-command-list)
+  * [Extending The Template](#extending-the-template)
 * [License](#license)
 * [Contact](#contact)
+
+## Functionality
+This bot template is built with the following features:
+* Handle user registration with the bot
+* Handle blocking of users
+* Automatically send reminder messages to registered users at scheduled times
+* Basic administration and troubleshooting
+
+If additional functionality is required, see [Extending The Template](#extending-the-template).
 
 ## Installation
 This bot template is mostly tested on Python 3.7.4.
@@ -41,7 +52,7 @@ Other commonly desired configuration changes can be done by modifying variables 
 * `REMINDER`: the text sent to users when a reminder is prompted.
 * `TIMES`: the times to send reminders to users, in the timezone of the bot's server. By default, set to 8 AM and 5:30 PM.
 
-## Bot Functionality
+## Running The Bot
 To run the bot, run `run.py`, which will automatically restart the bot whenever the bot crashes. 
 
 To initiate bot onboarding, the `/start` command can be sent to the bot by the user. After the user inputs their name, this is written to `userdict.tsv` and the user will begin receiving reminders. That's it!
@@ -56,6 +67,9 @@ To initiate bot onboarding, the `/start` command can be sent to the bot by the u
 * `/userdict`: Sends back all users. Admin only.
 * `/blockdict`: Sends back all blocked users. Admin only.
 * `/exception`: Throws a ZeroDivisionError, crashing the bot. Admin only.
+
+### Extending The Template
+For information on how to extend the template and add additional functionality as required, check out the full documentation for the[pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
 
 ## License
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
