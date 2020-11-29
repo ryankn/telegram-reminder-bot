@@ -1,4 +1,4 @@
-# <p align="center">Telegram Reminder Bot
+# <p align="center">Telegram Reminder Bot Template
 This is a simple template for a Telegram reminder bot built using the [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) implementation of the [Telegram Bot API](https://core.telegram.org/bots/api). 
 
 * [Installation](#installation)
@@ -11,12 +11,18 @@ This is a simple template for a Telegram reminder bot built using the [pyTelegra
 ## Installation
 This bot template is mostly tested on Python 3.7.4.
 
-Follow the installation instructions for the [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI#getting-started) library, then install the following libraries as well (instructions below for using the package manager [pip](https://pip.pypa.io/en/stable/)).
+1. Clone this repository
+   ```
+   git clone https://github.com/ryankn/telegram-reminder-bot.git
+   ```
 
-```
-$ pip install timeloop
-$ pip install python-dotenv
-```
+2. Follow the installation instructions for the [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI#getting-started) library. 
+
+3. Install the following dependencies (instructions below for using the package manager [pip](https://pip.pypa.io/en/stable/)). 
+   ```
+   $ pip install timeloop
+   $ pip install python-dotenv
+   ```
 
 ## Bot Setup
 To use this template, [obtain an API token from @BotFather](https://core.telegram.org/bots#6-botfather). Then modify `.env`, replacing the placeholder TOKEN variable with your API token. Note that this API token is what allows you to control your bot, so keep it secret!
@@ -56,4 +62,5 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
 ## Contact
 Ryan Nah - ryanknah@gmail.com
+
 Project Link: https://github.com/ryankn/telegram-reminder-bot
